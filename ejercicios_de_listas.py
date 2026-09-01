@@ -20,7 +20,7 @@ print("Copia:", copia)#imprime 10,20,30,50
 
 estacionamiento = ["AA-11", "BB-22","CC-33"]
 estacionamiento.append("DD-44")
-estacionamiento.remove("AA-11")
-estacionamiento.insert(0, "Vacio")
+estacionamiento.remove("AA-11")# alternativa de codigo estacionamiento ="Vacio"
+estacionamiento.insert(0, "Vacio") #al hacer la liena de codigo de arriba comentada esta linea no deberia usarse
 print(estacionamiento)
 
