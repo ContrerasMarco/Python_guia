@@ -18,8 +18,10 @@
 #ista 1: Puedes usar el operador módulo % para saber si un número es múltiplo de 15 (si numero % 15 == 0, entonces es múltiplo).
 #ista 2: Utiliza el parámetro end en tu print() para que los números salgan horizontales y separados por '-'.
 
+
 limite = 15
 while limite < 100:
     limite % 15 == 0
     print(limite, end='-')
     limite = limite + 15
+
